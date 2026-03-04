@@ -26,9 +26,9 @@ This first iteration of the system worked like this:
 
 You would add all relavent _Scene Assets_ to the _Scene Map Generator_ and then _Cook_ the scene map, resulting in a C# file containing an enum and Dictionary, where the enum is generated from the names of the _Scene Assets_. The Dictionary contains the enum type as Key and the _Asset Reference_ of the _Scene Assets_ as Value.
 
-### 2. Scene Changer
+### 2. [Scene Changer](Assets/Team3/Core/SceneManagement/Runtime/SceneChanger)
 
-Is the _Monobehaviour_ that is placed into a Scene to Change the currently showing Scenes. The Scenes that can be dispayed -they are part of the Generated SceneMap's enum- are shown as a dropdown. Then, when prompted at runtime it uses the _Asset Reference_ to load the specified Scene via the Addressable System.
+is the _Monobehaviour_ that is placed into a Scene to Change the currently showing Scenes. The Scenes that can be dispayed -they are part of the Generated SceneMap's enum- are shown as a dropdown. Then, when prompted at runtime it uses the _Asset Reference_ to load the specified Scene via the Addressable System.
 
 <img width="507" height="258" alt="image" src="https://github.com/user-attachments/assets/2113dbec-5b52-4b3d-aafe-393f653a8377" />
 
