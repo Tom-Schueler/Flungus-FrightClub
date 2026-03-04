@@ -14,6 +14,8 @@ Additionaly my focus has shifted awawy from Multiplayer so i would like to shift
 
 ## Scene Management using Unity Addressables
 
+Source: 
+
 Already before the project began I disliked the default implementation of Unity Scene List. Inspired by one of the S4G's lecturer mentioning Unity's Addressable System, I tryed to design and implement a custom _Scene Management System_.
 
 This first iteration of the system worked like this:
@@ -35,5 +37,10 @@ Is the _Monobehaviour_ that is placed into a Scene to Change the currently showi
 ### 3. Runtime Scene Container
 
 A static class that simply keeps track of which Scenes are currently loaded by _Asset Reference_ and whether a _Scene Changer_ is currently operating to avoid multiple _Scene Changers_ to operate simultaneously.
+
+
+Altho I think this iteration had clear advantages I was certain i could still improve on this. Among other things this System is not Portable to other projects because of the way the _Scene Map_ works as well as not very expandable. 
+
+If you'd like, read more about this [here]().
 
 ## Semi Physics-based Charactermovement
