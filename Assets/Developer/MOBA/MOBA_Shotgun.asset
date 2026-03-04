@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff1e1c5673283f546ae62d0d264e2850, type: 3}
+  m_Name: MOBA_Shotgun
+  m_EditorClassIdentifier: 
+  weaponName: Shotgun
+  id: 903
+  icon: {fileID: 0}
+  damage: 1
+  magazineSize: 2
+  spread: 0.01
+  fireRate: 1
+  reloadTime: 3
+  attackDamageScaling: 10
+  bulletsPerClick: 1
+  timeBetweenBullets: 0.1
+  bulletSpawn: {fileID: 0}
+  animator: {fileID: 0}
+  recoil: {x: 0, y: 0, z: 0}
+  snappiness: 4
+  returnSpeed: 2
+  zoom:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  cmHeadBob: {fileID: 0}
+  trailFx: {fileID: 0}
+  impactFx: {fileID: 11400000, guid: ed5c5464d3cb1464c85f77897edde170, type: 2}
+  muzzleFlashFx: {fileID: 11400000, guid: f4d93ea782dfab849b098a51c30a231f, type: 2}

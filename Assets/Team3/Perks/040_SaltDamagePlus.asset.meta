@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: d66ee77d70159df4d9bf4238dabebd52
+labels:
+- Purgatory
+- Weapon
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: perks
+  assetBundleVariant: perks

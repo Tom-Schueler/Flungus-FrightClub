@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: 1f99095f14cae40739b41f924680478a
+  m_SerializeEntries:
+  - m_GUID: 00670399f17b40f45b0d934f01d3eab3
+    m_Address: Assets/Team3/Scenes/UI/FirstScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ca3ff7623b12bb46a3035b3ebf618f6
+    m_Address: Assets/Team3/Scenes/UI/ControllSettings.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25f3bc1c9fa9f4cd6b0a6960838ec061
+    m_Address: Assets/Team3/Scenes/Level/World.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26c7027bc95c73e488c01361fd9f2a6c
+    m_Address: Assets/Team3/Environments/Nature/Trees/tree/Materials/tree_low_DefaultMaterial_BaseMap
+      1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2df3fef04bac0444e89b0a6ddb8e2c34
+    m_Address: Assets/Team3/Scenes/UI/MainMenu.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f181d6ef8b9225488f21be4d739982f
+    m_Address: Assets/Team3/Scenes/UI/GeneralSettings.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 617237bda28bd3e4da33a2c6792148b3
+    m_Address: Assets/Team3/Scenes/UI/PerksMenu.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66c4c75a851ae9541be45b4fbd1a260a
+    m_Address: Assets/Team3/Scenes/UI/HUD.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ab36bc97fe6143939b652d186d4ee0b
+    m_Address: Assets/Team3/Scenes/UI/Settings.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f8d252e055d9bc48b047b1deb3daabb
+    m_Address: Assets/Team3/Scenes/UI/AudioSettings.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c4e2985f6f854e4daeda229a2f486fb
+    m_Address: Assets/Team3/Scenes/Level/Level.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab4c1e0e5146f214ea14c6b5699c5717
+    m_Address: Assets/Team3/Scenes/Level/Match.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab8bb89f4fa494f25abd2510f664b7da
+    m_Address: Assets/Team3/Scenes/UI/Background.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af83a586991a144c18bd6f5191ebb839
+    m_Address: Assets/Team3/Scenes/UI/MultiplayerLobby.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3597faa294592c4fa33b8ad0044a228
+    m_Address: Assets/Team3/Scenes/UI/EndScreen.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6c4047819f4ad74180ed6587d72d7ce
+    m_Address: Assets/Team3/Scenes/UI/InventoryMenu.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6c4be9ee429f844d98d6290a1ad198e
+    m_Address: Assets/Team3/Scenes/UI/Credits.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c76ad384616ede544b5b68e9d0f0bcfe
+    m_Address: Assets/Team3/Scenes/UI/Credentials.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6d43b5ffdc17af4aae1c623b0420d02
+    m_Address: Assets/Team3/Environments/Nature/Grass/M_Bush_01.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e823cd5b5d27c0f4b8256e7c12ee3e6d
+    m_Address: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb27e9fe6c628bf4ab11e971f06703ac
+    m_Address: Assets/Team3/Scenes/UI/Scoreboard.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd0c94e081b1e724f9b9237eafa1a256
+    m_Address: Assets/Team3/Scenes/UI/WeaponSelection.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c3d2f47ffbde64bb7a084b16b0493380, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 54111e71de7da4882b679a1b21278c22, type: 2}
+    - {fileID: 11400000, guid: f56a335abd1ff48e9a3d508477056fac, type: 2}

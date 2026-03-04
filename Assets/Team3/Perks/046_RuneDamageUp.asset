@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1e6eb07f7629944a63b446740a9f10, type: 3}
+  m_Name: 046_RuneDamageUp
+  m_EditorClassIdentifier: 
+  cardName: Runes Damage Up
+  id: 46
+  image: {fileID: 2800000, guid: b7a555286381098429667b55e4ab5a24, type: 3}
+  icon: {fileID: 21300000, guid: b2ae7f3886971ec468b810debd715efb, type: 3}
+  alignment: 0
+  rarity: 0
+  isUnique: 0
+  perkGroup: 0
+  newBulletType: 0
+  newMainSkillType: 0
+  attackTypeDamage: []
+  attackTypeDamageBuff:
+  - type: 21
+    value: 10
+  skillTypeDamage: []
+  skillTypeDamageBuff: []
+  onHitPerks: []
+  onImpactPerks: []
+  onShootPerks: []
+  enemyDeathPerks: []
+  enemyDebuffPerks: []
+  onBulletDestroy: []
+  characterStatBoost: []

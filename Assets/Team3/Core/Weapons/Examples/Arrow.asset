@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65fb4df0c4411f14090ae6f40009aaf8, type: 3}
+  m_Name: Arrow
+  m_EditorClassIdentifier: 
+  damageTypeFlat:
+  - type: 0
+    value: 20
+  type: 10
+  force: 7
+  gravityMultiplier: 0
+  lifeTime: 2
+  isDestroyedOnImpact: 1
+  trailFX: {fileID: 3095227509480148609, guid: 6a362e2ce879f7648806eeee31767a8b, type: 3}
+  impactFX: {fileID: 5989859148366682316, guid: 3054d195b5df76141adb352d54387621, type: 3}
+  spawnFX: {fileID: 9104738340679658174, guid: b22924a7e1d74254ea175567f5144b96, type: 3}
+  projectileMesh: {fileID: 4311870507630983494, guid: cf672118dd1a0b24a845e919f4908f5e, type: 3}
+  collisionRadius: 0.5

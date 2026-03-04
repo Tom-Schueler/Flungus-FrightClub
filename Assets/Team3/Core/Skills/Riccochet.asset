@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ce4cc889ba8f774bb7f5bf75baaad01, type: 3}
+  m_Name: Riccochet
+  m_EditorClassIdentifier: 
+  damageTypeValue:
+    type: 0
+    value: 0
+  cooldown: 10
+  cooldownRemaining: 0
+  riccochetProjectile: {fileID: 9074164308749406147, guid: dc8e42de0b930604e97335ab8af040b5, type: 3}
+  ProjectileSpawn: {fileID: 0}
+  initialAngleOffset: 45

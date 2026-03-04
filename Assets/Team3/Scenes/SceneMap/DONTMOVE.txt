@@ -1,0 +1,5 @@
+Caution: 
+
+Dont move the SceneMap Script out of the SceneMap folder. The SceneMapGenerator keeps a reference to the Folder only. so if you need to move this move the folder not the script.
+
+signed tom

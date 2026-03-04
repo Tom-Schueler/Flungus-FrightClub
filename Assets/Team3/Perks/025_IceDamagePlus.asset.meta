@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: af4d4b8da0e51c84b9fb62f4effaddee
+labels:
+- Heaven
+- Weapon
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: perks
+  assetBundleVariant: perks

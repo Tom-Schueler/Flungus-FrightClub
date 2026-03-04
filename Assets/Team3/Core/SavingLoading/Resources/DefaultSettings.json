@@ -1,0 +1,83 @@
+{
+  "dropDownSettings": {
+    "DisplayMode": 1,
+    "ResolutionMode": 5,
+    "FpsMode": 4
+  },
+  "vsyncEnabled": false,
+  "sensitivity": 1.0,
+  "keyBoardMouseActions": {
+    "Jump": {
+      "path": "/Keyboard/space",
+      "displayText": "Leer"
+    },
+    "Reload": {
+      "path": "/Keyboard/r",
+      "displayText": "R"
+    },
+    "Shoot": {
+      "path": "/Mouse/leftButton",
+      "displayText": "LMB"
+    },
+    "Sprint": {
+      "path": "/Keyboard/leftShift",
+      "displayText": "Umschalt"
+    },
+    "StriveLeft": {
+      "path": "/Keyboard/a",
+      "displayText": "A"
+    },
+    "StriveRight": {
+      "path": "/Keyboard/d",
+      "displayText": "D"
+    },
+    "Walk": {
+      "path": "/Keyboard/w",
+      "displayText": "W"
+    },
+    "WalkBack": {
+      "path": "/Keyboard/s",
+      "displayText": "S"
+    }
+  },
+  "gamepadActions": {
+    "Jump": {
+      "path": "/XInputControllerWindows/buttonSouth",
+      "displayText": "ButtonSouth"
+    },
+    "Reload": {
+      "path": "/XInputControllerWindows/buttonNorth",
+      "displayText": "ButtonNorth"
+    },
+    "Shoot": {
+      "path": "/XInputControllerWindows/rightTrigger",
+      "displayText": "RightTrigger"
+    },
+    "Sprint": {
+      "path": "/XInputControllerWindows/buttonWest",
+      "displayText": "ButtonWest"
+    }
+  },
+  "audioSettings": {
+    "Master": {
+      "volume": 50.0,
+      "enabled": true
+    },
+    "Music": {
+      "volume": 100.0,
+      "enabled": true
+    },
+    "SFX": {
+      "volume": 100.0,
+      "enabled": true
+    },
+    "Ambient": {
+      "volume": 100.0,
+      "enabled": true
+    },
+    "UI": {
+      "volume": 100.0,
+      "enabled": true
+    }
+  }
+}

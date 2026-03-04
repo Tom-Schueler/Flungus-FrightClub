@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65fb4df0c4411f14090ae6f40009aaf8, type: 3}
+  m_Name: ShotGunBullet
+  m_EditorClassIdentifier: 
+  damageTypeFlat: []
+  type: 1
+  force: 25
+  gravityMultiplier: 0
+  lifeTime: 2
+  isDestroyedOnImpact: 1
+  trailFX: {fileID: 3095227509480148609, guid: 6a362e2ce879f7648806eeee31767a8b, type: 3}
+  impactFX: {fileID: 4792314946727229683, guid: 3677769088793d943b99f11840144866, type: 3}
+  spawnFX: {fileID: 2187252326628481793, guid: 6fec08f17dbebbf4a95b0a4acdddfd28, type: 3}
+  projectileMesh: {fileID: 919132149155446097, guid: ece6f079484f6324fa5ffdd0b3de44d3, type: 3}
+  collisionRadius: 0.1

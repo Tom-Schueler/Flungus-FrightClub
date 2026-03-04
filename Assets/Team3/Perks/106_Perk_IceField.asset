@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f8e9ae7dad7720449816053f6820097, type: 3}
+  m_Name: 106_Perk_IceField
+  m_EditorClassIdentifier: 
+  ID: 106
+  vFX: {fileID: 0}
+  cooldown: 10
+  gameObjectToSpawnOnClient: {fileID: 8704263014438433717, guid: 7d0afd092c33a65418fb2506a59377bc, type: 3}
+  gameObjectToSpawnOnServer: {fileID: 0}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c299a3ee4ced347b31d34556662648, type: 3}
+  m_Name: 001_CardCanon3000
+  m_EditorClassIdentifier: 
+  weaponName: Card Canon
+  id: 1
+  icon: {fileID: 21300000, guid: c5ed85c36230d4840823e3335fb7fe08, type: 3}
+  artwork: {fileID: 0}
+  bulletsPerClick: 3
+  splitDamageBetweenBullets: 0
+  splitBulletTriggersPerk: 1
+  magazineSize: 60
+  spread: 0.02
+  fireRate: 0.5
+  timeBetweenBullets: 0.1
+  reloadTime: 2
+  gunAsset: {fileID: 3631692304883792188, guid: 678f8a5f43cf197419574cdab3530a57, type: 3}
+  reloadAnimation: {fileID: 1827226128182048838, guid: de25d0d6f4adb0e4ba79666677d9bdb5, type: 3}
+  shootAnimation: {fileID: 1827226128182048838, guid: baedc0ac92fcb4448b4c5d4b0d7c13a2, type: 3}
+  characterCard: {fileID: 11400000, guid: fa396441e90a74a4e989cb1db55089d7, type: 2}
+  attackDamageScaling: 1
+  shootFx: {fileID: 8857068510691566937, guid: 35bd8d7b88883d449bb7738ded2043c5, type: 3}
+  projectileForce: 5
+  projectileLifetime: 4
+  projectileSize: 0.2
+  projectileGravity: 0
+  projectileTrailFXAsset: {fileID: 7183061214860825762, guid: ff6bf89ded4162444ae0629c01c9753f, type: 3}
+  projectileImpactFXAsset: {fileID: 8857068510691566937, guid: df5e3305fb636e741bdbc47ce75fa745, type: 3}
+  projectileMesh: {fileID: 5087765439238977536, guid: 58a735bc7c4f5904fb87d4edad5f887a, type: 3}

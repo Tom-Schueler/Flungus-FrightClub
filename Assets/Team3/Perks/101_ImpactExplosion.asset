@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fec5774f94c85b4397b9c5ad716764d, type: 3}
+  m_Name: 101_ImpactExplosion
+  m_EditorClassIdentifier: 
+  ID: 101
+  vFX: {fileID: 11400000, guid: 6850b22b63b260644aebd817ed2dcecf, type: 2}
+  cooldown: 0.2
+  networkSpawner: {fileID: 2820223340478959499, guid: be625a7738197cf459c06ba6aca37c10, type: 3}
+  explosionRadius: 5
+  explosionForce: 10
+  affectedLayers:
+    serializedVersion: 2
+    m_Bits: 192
+  damage: 5
+  Cosmetic: {fileID: 1733242365353846333, guid: d4796bafb484c884eb47e2246b9872bc, type: 3}
+  FireStacks: 5

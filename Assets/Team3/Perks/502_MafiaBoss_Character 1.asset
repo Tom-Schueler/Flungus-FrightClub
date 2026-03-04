@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1e6eb07f7629944a63b446740a9f10, type: 3}
+  m_Name: 502_MafiaBoss_Character 1
+  m_EditorClassIdentifier: 
+  cardName: Mafia Boss
+  id: 502
+  image: {fileID: 2800000, guid: b7a555286381098429667b55e4ab5a24, type: 3}
+  icon: {fileID: 21300000, guid: c64388d9571024b47b8d77abcb2479a3, type: 3}
+  alignment: 3
+  rarity: 10
+  isUnique: 1
+  perkGroup: 0
+  newBulletType: 0
+  newMainSkillType: 0
+  attackTypeDamage:
+  - type: 0
+    value: 8
+  attackTypeDamageBuff: []
+  skillTypeDamage: []
+  skillTypeDamageBuff: []
+  onHitPerks: []
+  onImpactPerks: []
+  onShootPerks: []
+  enemyDeathPerks: []
+  enemyDebuffPerks: []
+  onBulletDestroy: []
+  characterStatBoost: []

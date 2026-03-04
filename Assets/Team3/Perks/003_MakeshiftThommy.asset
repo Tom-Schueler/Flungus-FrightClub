@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6c299a3ee4ced347b31d34556662648, type: 3}
+  m_Name: 003_MakeshiftThommy
+  m_EditorClassIdentifier: 
+  weaponName: MakeshiftGun
+  id: 3
+  icon: {fileID: 21300000, guid: c5ed85c36230d4840823e3335fb7fe08, type: 3}
+  artwork: {fileID: 0}
+  bulletsPerClick: 1
+  scaleDamage: 0.2
+  splitBulletTriggersPerk: 0
+  magazineSize: 100
+  spread: 0.02
+  fireRate: 0.2
+  timeBetweenBullets: 0
+  reloadTime: 1
+  gunAsset: {fileID: 295292501991060029, guid: a2a50cecbb5d7ef4aadf3677b7c17cfe, type: 3}
+  reloadAnimation: {fileID: 1827226128182048838, guid: de25d0d6f4adb0e4ba79666677d9bdb5, type: 3}
+  shootAnimation: {fileID: 1827226128182048838, guid: baedc0ac92fcb4448b4c5d4b0d7c13a2, type: 3}
+  characterCard: {fileID: 11400000, guid: f3ddea682cd5ba9408b6c14395feb095, type: 2}
+  attackDamageScaling: 1
+  shootFx: {fileID: 8857068510691566937, guid: 35bd8d7b88883d449bb7738ded2043c5, type: 3}
+  projectileForce: 40
+  projectileLifetime: 4
+  projectileSize: 0.15
+  projectileGravity: 0
+  projectileTrailFXAsset: {fileID: 7183061214860825762, guid: 9b796262bc675254b821294155925e84, type: 3}
+  projectileImpactFXAsset: {fileID: 8857068510691566937, guid: df5e3305fb636e741bdbc47ce75fa745, type: 3}
+  projectileMesh: {fileID: 842992497205127235, guid: 832f873cd95058948abf53ec922d92b0, type: 3}

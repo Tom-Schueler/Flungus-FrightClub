@@ -1,0 +1,63 @@
+using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
+using TMPro;
+using Unity.Netcode;
+using Unity.Netcode.Transports.UTP;
+using Unity.Services.Authentication;
+using Unity.Services.Core;
+using Unity.Services.Relay;
+using Unity.Services.Relay.Models;
+using UnityEngine;
+
+public class RelayExample : MonoBehaviour
+{
+    [SerializeField] private TMP_Text joinCodeText;
+    [SerializeField] private TMP_InputField joinInput;
+    [SerializeField] private GameObject buttons;
+    [SerializeField] private UnityTransport transport;
+    [SerializeField, Range(2, 4)] private int maxPlayers;
+
+    private async void Awake()
+    {
+        if (transport == null)
+        {
+            throw new System.ArgumentNullException($"{nameof(transport)} is null");
+        }
+
+        buttons.SetActive(false);
+
+        await Authenticate();
+
+        buttons.SetActive(true);
+    }
+
+    private static async Task Authenticate()
+    {
+        await UnityServices.InitializeAsync();
+        await AuthenticationService.Instance.SignInAnonymouslyAsync();
+    }
+
+    public async void CreateGame()
+    {
+        buttons.SetActive(false);
+
+        Allocation a = await RelayService.Instance.CreateAllocationAsync(maxPlayers);
+        joinCodeText.text = await RelayService.Instance.GetJoinCodeAsync(a.AllocationId);
+
+        transport.SetHostRelayData(a.RelayServer.IpV4, (ushort)a.RelayServer.Port, a.AllocationIdBytes, a.Key, a.ConnectionData);
+
+        NetworkManager.Singleton.StartHost();
+    }
+
+    public async void JoinGame()
+    {
+        buttons.SetActive(false);
+
+        JoinAllocation a = await RelayService.Instance.JoinAllocationAsync(joinInput.text);
+
+        transport.SetClientRelayData(a.RelayServer.IpV4, (ushort)a.RelayServer.Port, a.AllocationIdBytes, a.Key, a.ConnectionData, a.HostConnectionData);
+
+        NetworkManager.Singleton.StartClient();
+    }
+
+}

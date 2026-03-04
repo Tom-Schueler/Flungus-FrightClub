@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 4c2617da864d84e4699f29b58c41467c
+labels:
+- Hell
+- Weapon
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: perks
+  assetBundleVariant: perks
