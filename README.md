@@ -14,7 +14,7 @@ Additionaly my focus has shifted awawy from Multiplayer so i would like to shift
 
 ## Scene Management using Unity Addressables
 
-Source: 
+Source: Assets/Team3/Core/SceneManagement/
 
 Already before the project began I disliked the default implementation of Unity Scene List. Inspired by one of the S4G's lecturer mentioning Unity's Addressable System, I tryed to design and implement a custom _Scene Management System_.
 
