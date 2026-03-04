@@ -41,6 +41,6 @@ A static class that simply keeps track of which Scenes are currently loaded by _
 ##
 Altho I think this iteration had clear advantages I was certain i could still improve on this. Among other things this System is not Portable to other projects because of the way the _Scene Map_ works as well as it is not very expandable. 
 
-If you'd like, read more about the improved version [here]().
+If you'd like, read more about the improved version [here](https://github.com/KEKWdetlef).
 
 ## Semi Physics-based Charactermovement
