@@ -48,3 +48,15 @@ If you'd like, read more about the improved version [here](https://github.com/KE
 Source: 
 - [Assets/Team3/Core/Characters/CharacterMovement.cs](Assets/Team3/Core/Characters/CharacterMovement.cs)
 - [Assets/Team3/Core/Characters/States](Assets/Team3/Core/Characters/States)
+
+Making a Physics-based Charactermovement was one of my priorities for the project. Quiet francly, after the project was finished I faild at this task. Even tho it worked and felt Okay to Play, the architecture of the whole system made me realy unhappy. 
+
+Among other things, the "_CharacterMovement_" class sudenly was resposible for much more than just the movement and totaly bloated. I also decidet that i would put the actual [movement logic](Assets/Team3/Core/Movement) into seperate static helper classes, a decision that would come to haunt me in the end.
+
+Immediately after the project I invested myself to improve the Movement. Which ended up beeing a great learning experience for Architecture. I also referenced UnrealEngines Controller and Pawn model in the improved system. 
+
+If you'd like, read more about the improved version [here](https://github.com/KEKWdetlef).
+
+##
+
+Bye
