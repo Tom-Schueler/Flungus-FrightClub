@@ -39,6 +39,8 @@ Is the _Monobehaviour_ that is placed into a Scene to Change the currently showi
 A static class that simply keeps track of which Scenes are currently loaded by _Asset Reference_ and whether a _Scene Changer_ is currently operating to avoid multiple _Scene Changers_ to operate simultaneously.
 
 
+
+
 Altho I think this iteration had clear advantages I was certain i could still improve on this. Among other things this System is not Portable to other projects because of the way the _Scene Map_ works as well as not very expandable. 
 
 If you'd like, read more about this [here]().
