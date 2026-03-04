@@ -44,3 +44,7 @@ Altho I think this iteration had clear advantages I was certain i could still im
 If you'd like, read more about the improved version [here](https://github.com/KEKWdetlef).
 
 ## Semi Physics-based Charactermovement
+
+Source: 
+- [Assets/Team3/Core/Characters/CharacterMovement.cs](Assets/Team3/Core/Characters/CharacterMovement.cs)
+- [Assets/Team3/Core/Characters/States](Assets/Team3/Core/Characters/States)
