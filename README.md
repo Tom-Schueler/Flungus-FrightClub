@@ -56,7 +56,3 @@ Among other things, the "_CharacterMovement_" class sudenly was resposible for m
 Immediately after the project I invested myself to improve the Movement. Which ended up beeing a great learning experience for Architecture. I also referenced UnrealEngines Controller and Pawn model in the improved system. 
 
 If you'd like, read more about the improved version [here](https://github.com/KEKWdetlef).
-
-##
-
-Bye
