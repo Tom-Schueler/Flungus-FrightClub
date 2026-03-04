@@ -20,7 +20,7 @@ Already before the project began I disliked the default implementation of Unity 
 
 This first iteration of the system worked like this:
 
-### 1. [Scene Map Generator](Assets/Team3/Core/SceneManagement/Editor/SceneMapGenerator/) | Scene Map
+### 1. [Scene Map Generator](Assets/Team3/Core/SceneManagement/Editor/SceneMapGenerator/) | [Scene Map](Assets/Team3/Scenes/SceneMap/SceneMap.cs)
 
 <img align="right" width="290" height="461" alt="image" src="https://github.com/user-attachments/assets/87ca53e6-8d29-44ea-8318-15f0ba9c4035" />
 
