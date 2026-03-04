@@ -16,4 +16,10 @@ Additionaly my focus has shifted awawy from Multiplayer so i would like to shift
 
 Already before the project began I disliked the default implementation of Unity Scene List. Inspired by one of the S4G's lecturer mentioning Unity's Addressable System, I tryed to design and implement a custom _Scene Management System_.
 
+This first iteration of the system worked like this:
+
+### 1. Scene Map Generator | Scene Map
+<img width="581" height="923" alt="image" src="https://github.com/user-attachments/assets/87ca53e6-8d29-44ea-8318-15f0ba9c4035" />
+
+
 ## Semi Physics-based Charactermovement
