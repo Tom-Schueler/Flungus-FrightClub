@@ -19,7 +19,7 @@ Already before the project began I disliked the default implementation of Unity 
 This first iteration of the system worked like this:
 
 ### 1. Scene Map Generator | Scene Map
-<img width="581" height="923" alt="image" src="https://github.com/user-attachments/assets/87ca53e6-8d29-44ea-8318-15f0ba9c4035" />
+<img width="290" height="461" alt="image" src="https://github.com/user-attachments/assets/87ca53e6-8d29-44ea-8318-15f0ba9c4035" />
 
 
 ## Semi Physics-based Charactermovement
