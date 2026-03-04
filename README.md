@@ -19,14 +19,16 @@ Already before the project began I disliked the default implementation of Unity 
 This first iteration of the system worked like this:
 
 ### 1. Scene Map Generator | Scene Map
+
 <img align="right" width="290" height="461" alt="image" src="https://github.com/user-attachments/assets/87ca53e6-8d29-44ea-8318-15f0ba9c4035" />
 
 You would add all relavent _Scene Assets_ to the _Scene Map Generator_ and then _Cook_ the scene map, resulting in a C# file containing an enum and Dictionary, where the enum is generated from the names of the _Scene Assets_. The Dictionary contains the enum type as Key and the GUID of the _Scene Assets_ as Value.
 
 ### 2. Scene Changer
-<img width="507" height="258" alt="image" src="https://github.com/user-attachments/assets/2113dbec-5b52-4b3d-aafe-393f653a8377" />
 
 Is the _Monobehaviour_ that is placed into a Scene to Change the currently showing Scenes. The Scenes that can be dispayed -they are part of the Generated SceneMap- are shown as a dropdown.
+
+<img width="507" height="258" alt="image" src="https://github.com/user-attachments/assets/2113dbec-5b52-4b3d-aafe-393f653a8377" />
 
 <br clear="right"/>
 
