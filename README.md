@@ -8,7 +8,7 @@ This repository exists only as a demonstration of my work. The code may be viewe
 
 is the project I worked on during the second semester of my education at the _School for Games_ (S4G) in collaboration with nine of my fellow students -_you can find their names on the itch page_. Using Unity Engine was a requirement as per the S4G's curriculum.
 
-It is a, multiround 4 Player, Party Multiplayer where the Players can choose from 3 weapons to fight each other with. Additionaly the playrs get a perk that improve the Characters abilitys. 
+The game is a multi-round, four-player party multiplayer game where the players can choose from three weapons to fight each other. Additionally, each round the players receive a perk that improves their character’s abilities.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d7f90ebb-2526-43c1-97f8-1547bfd1f35d" />
 
