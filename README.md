@@ -11,7 +11,7 @@ is the project I worked on during the second semester of my education at the _Sc
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d7f90ebb-2526-43c1-97f8-1547bfd1f35d" />
 
 
-TODO: What is the game about. + image
+TODO: What is the game about.
 
 Considering the 10-week deadline of the project and that this was my first experience making a multiplayer game, I find this project to be a total success. I got some practice using _Netcode for GameObjects_ and incorporating Unity services (Unity Relay) into the game, as well as learning some do's and don'ts of multiplayer programming. That said, I must admit that a lot of the production code is my first attempt and rushed, and thus is often not up to my standard. 
 
