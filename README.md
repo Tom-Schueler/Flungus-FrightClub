@@ -6,7 +6,7 @@ This repository exists only as a demonstration of my work. The code may be viewe
 
 # Flungus-FrightClub
 
-is the project I worked on during the second semester of my education at the _School for Games_ (S4G) in collaboration with 9 of my fellow students -_you can find their names on the itch page_. Using Unity Engine was a requirement as per the S4G's curriculum.
+is the project I worked on during the second semester of my education at the _School for Games_ (S4G) in collaboration with nine of my fellow students -_you can find their names on the itch page_. Using Unity Engine was a requirement as per the S4G's curriculum.
 
 It is a, multiround 4 Player, Party Multiplayer where the Players can choose from 3 weapons to fight each other with. Additionaly the playrs get a perk that improve the Characters abilitys. 
 
