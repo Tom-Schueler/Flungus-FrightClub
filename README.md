@@ -8,10 +8,9 @@ This repository exists only as a demonstration of my work. The code may be viewe
 
 is the project I worked on during the second semester of my education at the _School for Games_ (S4G) in collaboration with 9 of my fellow students -_you can find their names on the itch page_. Using Unity Engine was a requirement as per the S4G's curriculum.
 
+It is a, multiround 4 Player, Party Multiplay where the Players can choose from 3 weapons to fight each other with. Additionaly the playrs get a perk that improve the Characters abilitys. 
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d7f90ebb-2526-43c1-97f8-1547bfd1f35d" />
-
-
-TODO: What is the game about.
 
 Considering the 10-week deadline of the project and that this was my first experience making a multiplayer game, I find this project to be a total success. I got some practice using _Netcode for GameObjects_ and incorporating Unity services (Unity Relay) into the game, as well as learning some do's and don'ts of multiplayer programming. That said, I must admit that a lot of the production code is my first attempt and rushed, and thus is often not up to my standard. 
 
